@@ -8,7 +8,7 @@ function HomePage(){
     return(
         <div>
             <NavBar />
-            <SearchBar />
+            {/* <SearchBar /> */}
             <GamesList />
             
         </div>
