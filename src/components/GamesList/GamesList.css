@@ -1,0 +1,49 @@
+.gameslist_container{
+    background-color: rgb(236, 174, 58);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+    
+}
+
+.gameslist_container_box{
+    width: 400px;
+    height: 300px;
+    background-color: skyblue;
+    margin: 1px 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    margin: 2% 2%;
+    box-shadow: -10px 10px 4px 0px blue;
+
+}
+
+
+.gameslist_container_box > p{
+    font-size: 15px;
+    font-weight: 700;
+}
+.gameslist_container_box_image{
+    width: 100px;
+}
+.gameslist_container_box_title {
+    color: red;
+}
+.gameslist_container_box_platform {
+    color: blue
+}
+.gameslist_container_box_score {
+    color: purple
+}
+.gameslist_container_box_genre {
+    color: yellow;
+}
+.gameslist_container_box_choice {
+    color: red;
+}
