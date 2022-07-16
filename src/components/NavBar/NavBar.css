@@ -1,0 +1,37 @@
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #45e670;
+    padding: 0.5% 3%;
+    border-bottom: 2px solid red;
+
+}
+.navbar_logo {
+    height: 50px;
+    /* width: 50px; */
+    border-radius: 4px;
+}
+.navbar_button{
+    width: 80px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+}
+
+.navbar_button:hover{
+    color: black;
+    background-color: rgb(243, 107, 107);
+    cursor: pointer;
+}
+.navbar_title{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: cursive;
+    color: purple;
+
+}
