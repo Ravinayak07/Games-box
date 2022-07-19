@@ -1,64 +1,58 @@
-.gameslist_container{
-    background-color: rgb(236, 174, 58);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-   
-    
-    
-}
 
-.gameslist_container_box{
-    width: 400px;
-    height: 300px;
-    background-color: skyblue;
-    margin: 1px 2px;
+
+.gameslist_container{
+   
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    border-radius: 12px;
-    margin: 2% 2%;
-    box-shadow: -10px 10px 4px 0px blue;
+    background-color: white;
+    padding: 4% 2%;
+  
+ 
+} 
 
-}
-
-
-.gameslist_container_box > p{
-    font-size: 15px;
-    font-weight: 700;
-}
-.gameslist_container_box_image{
-    width: 100px;
-}
-.gameslist_container_box_title {
-    color: red;
-}
-.gameslist_container_box_platform {
-    color: blue
-}
-.gameslist_container_box_score {
-    color: purple
-}
-.gameslist_container_box_genre {
-    color: yellow;
-}
-.gameslist_container_box_choice {
-    color: red;
-}
-
-.searchbar_container{
-    background-color: rgb(236, 174, 58);
-    display: flex;
-    justify-content: center;
-    height: 20vh;
-    align-items: center;
-}
 .searchbar_box{
     width: 400px;
     height: 40px;
     border-radius: 8px;
-    border: none;
+    border: 4px solid purple;
     padding: 4px 8px;
+    margin-bottom: 40px;
 }
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    border-radius: 10px;
+    
+    
+  }
+  
+th {
+    border: 2px solid purple; 
+    text-align: left;
+    padding: 10px;
+
+    
+  }
+  td{
+    background-color: #45e670;
+    border: 1px solid purple; 
+    text-align: left;
+    padding: 20px;
+    
+  }
+  .gamelist_header{
+    background-color: purple;
+    color: white;
+   
+  }
+
+
+
+
+
+

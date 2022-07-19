@@ -1,15 +1,15 @@
 import React from "react";
 import "./HomePage.css";
 import NavBar from "../../components/NavBar/NavBar";
-import SearchBar from "../../components/SearchBar/SearchBar";
 import GamesList from "../../components/GamesList/GamesList";
+import Footer from "../../components/Footer/Footer";
 
 function HomePage(){
     return(
         <div>
             <NavBar />
-            {/* <SearchBar /> */}
             <GamesList />
+            <Footer />
             
         </div>
     )

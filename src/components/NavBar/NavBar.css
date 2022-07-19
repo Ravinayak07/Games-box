@@ -4,7 +4,7 @@
     align-items: center;
     background-color: #45e670;
     padding: 0.5% 3%;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid purple;
 
 }
 .navbar_logo {
@@ -15,7 +15,7 @@
 .navbar_button{
     width: 80px;
     height: 30px;
-    background-color: red;
+    background-color: purple;
     color: white;
     font-size: 15px;
     font-weight: 700;
@@ -24,8 +24,8 @@
 }
 
 .navbar_button:hover{
-    color: black;
-    background-color: rgb(243, 107, 107);
+    color: white;
+    background-color: rgb(201, 22, 201);
     cursor: pointer;
 }
 .navbar_title{
